@@ -4,7 +4,7 @@ public class User implements Serializable {
     private String name;
     private String password;
     transient String id ; //ignore
-
+    private static final long serialVersionID=1;
 
     public void name_Customer(String name){
 
