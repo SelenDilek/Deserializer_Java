@@ -3,6 +3,7 @@ import java.io.Serializable;
 public class User implements Serializable {
     private String name;
     private String password;
+    transient String id ; //ignore
 
 
     public void name_Customer(String name){
